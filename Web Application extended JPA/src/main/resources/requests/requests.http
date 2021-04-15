@@ -1,0 +1,11 @@
+GET http://localhost:8080/json/students?page=0&size=3
+
+###
+
+POST http://localhost:8080/students/json
+Content-Type: application/json
+
+{
+"firstName": "Новый пользователь",
+  "lastName": "Очень новый"
+}
